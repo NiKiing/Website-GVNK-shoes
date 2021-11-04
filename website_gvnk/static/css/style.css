@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboro', sans-serif;
+
+}
+
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://res.cloudinary.com/nikiing/image/upload/v1635990112/image-gvnk_uj40je.png);
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar{
+    display: frig;
+    grid-template-columns: repeat(9, 1fr);
+    padding: 30px;
+}
+
+.navbar .brand {
+    color:black;
+}
+
+
+
+.navbar .menu {
+
+    grid-column: 6 / 9;
+    display: flex;
+    margin-top: 12px;
+}
+
+.menu li {
+    list-style: none;
+
+}
+.menu li a {
+    text-decoration: none;
+    margin-right: 3em;
+    font-size: 1.3em;
+    color:black;
+    font-weight: 200;
+    padding: 10px 20px;
+    
+}
+
+.menu li a:hover{
+    background-color:#980412;
+    transition: all .3s;
+    color: white;
+    
+    
+}
+
+.menu-bar {
+    display: none;
+}
+
