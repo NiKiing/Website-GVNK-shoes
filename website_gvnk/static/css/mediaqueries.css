@@ -1,5 +1,4 @@
-@media only screen and (max-width: 1270px)
-{
+@media only screen and (max-width: 1177px){
 
     .navbar{
         background-color: #980412;
@@ -24,11 +23,11 @@
     .navbar .menu-toggle {
         transform: translateY(0%);
     }
-    
+
     .menu li {
         margin-top: 3em;
     }
-    
+
     .navbar .menu-bar {
         display: flex;
         font-size: 2em;
@@ -36,6 +35,31 @@
         cursor: pointer;
     }
 
+    /* MAIN SECTION */
 
-   
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        height: 70vh;
+    }
+
+    .main img {
+        width: 28em;
+    }
+    
+    .main h1 {
+        margin-top: -80px;
+    }
+
+    .main .button-content {
+        display: flex;
+        flex-direction: column;
+        margin: 30px ;
+    }
+    
+  
 }
