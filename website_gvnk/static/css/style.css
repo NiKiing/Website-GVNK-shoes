@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 @import 'mediaqueries.css';
 
 * {
@@ -20,7 +19,7 @@ body {
 .hero{
     width: 100vw;
     height: 100vh;
-    background-image: url(https://res.cloudinary.com/nikiing/image/upload/v1636081478/image-gvnk_1_tuotdt.png);
+    background-image: url(https://res.cloudinary.com/nikiing/image/upload/v1635990112/image-gvnk_uj40je.png);
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +33,7 @@ body {
 }
 
 .navbar .brand {
-    color:black;
+    color:black
 }
 
 
@@ -61,7 +60,7 @@ body {
 }
 
 .menu li a:hover{
-    background-color:black;
+    background-color:#980412;
     transition: all .3s;
     color: white;
     
@@ -71,6 +70,7 @@ body {
 .menu-bar {
     display: none;
 }
+
 
 /* MAIN SECTION */
 
@@ -82,12 +82,10 @@ body {
 }
 
 .content-info {
-    margin-top: -8em;
-    
+    margin-top: 5em;
     color: black;
 
 }
-
 
 button{
     cursor: pointer;
@@ -102,7 +100,6 @@ button:hover   {
 
 .btn-toBuy, .read-more{
     background-color: #980412;
-    font-family: 'Roboro', sans-serif;
     padding: 8px 40px;
     font-size: 1.2em;
     border-radius: 20px;
@@ -111,12 +108,48 @@ button:hover   {
 
 .read-more{
     background: none;
-    border: 1px solid black;
+    border: 1px solid white;
     margin: 20px;
 }
 
 .main img{
-    margin-top: -10em;
+    margin-top: -2.3em;
+    
+  
+    
 
+}
+
+/* ABOUT SECTION */
+.about h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: .3em;
+    margin-top: 100px;
+}
+  
+.about .divider, .products .divider {
+    background-color: #ca4172;
+    width: 50px;
+    height: 3px;
+    margin: 0 auto;
+}
+  
+.about .about-content {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    display: flex;
+    align-items: center;
+}
+  
+.about .about-info {
+    margin: 4em;
+}
+  
+.about .about-info h3 {
+    text-transform: uppercase;
+    margin-bottom: 1em;
 }
 

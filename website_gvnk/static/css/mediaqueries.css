@@ -1,8 +1,8 @@
-@media only screen and (max-width: 845px)
+@media only screen and (max-width: 1270px)
 {
 
     .navbar{
-        background-color: #ca4172;
+        background-color: #980412;
         height: 80px;
         box-shadow: 2px 2px 15px rgba(0, 0, 0, .42);
         align-items: center;
@@ -63,4 +63,7 @@
     }
     
     
+    .main img {
+        width: 30em;
+    }
 }
