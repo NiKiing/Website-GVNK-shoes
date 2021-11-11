@@ -120,4 +120,26 @@ button:hover   {
 
 }
 
+/* FOOTER SECTION */
 
+.footer {
+    background-color: #980412;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .menu {
+    margin-top: 20px;
+}
+
+.footer .social-network .fab{
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+.footer .social-network .fab:hover {
+    color: #f7b733 ;
+}
