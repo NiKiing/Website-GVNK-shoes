@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1177px){
+
+    .navbar{
+        background-color: #980412;
+        height: 80px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, .42);
+        align-items: center;
+    }
+
+    .navbar .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        background-color: #980412 ;
+        height: 50vh;
+        left: -1em;
+        transform : translateY(-120%);
+        transition: all .4s;
+        
+    }
+
+    .navbar .menu-toggle {
+        transform: translateY(0%);
+    }
+
+    .menu li {
+        margin-top: 3em;
+    }
+
+    .navbar .menu-bar {
+        display: flex;
+        font-size: 2em;
+        color : white;
+        cursor: pointer;
+    }
+}
