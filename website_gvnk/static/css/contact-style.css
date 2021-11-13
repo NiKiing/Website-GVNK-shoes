@@ -143,7 +143,7 @@ textarea{
 	width: 100%;
 	padding: 0.5rem 1rem;
 	background-color: #980412;
-	color: #fff;
+	color: rgb(243, 67, 67);
 	font-size: 1.1rem;
 	border: none;
 	outline: none;
@@ -167,4 +167,27 @@ textarea{
 	.left{
 		height: 200px;
 	}
+}
+
+/*-- FOOTER SECTION  --*/
+.footer {
+    background-color: #cc091f;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .menu {
+    margin-top: 50px;
+}
+
+.footer .social-network .fab{
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+.footer .social-network .fab:hover {
+    color: #f7b733 ;
 }
