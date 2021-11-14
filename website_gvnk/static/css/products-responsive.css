@@ -34,4 +34,25 @@
         color : white;
         cursor: pointer;
     }
+    /* FOOTER SECTION */
+
+    .footer {
+        flex-direction: column-reverse;
+      }
+  
+      .footer .quicklinks .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      } 
+  
+      .footer .social-network {
+        margin: 2em;
+      }
+      .footer h3 {
+        font-weight: lighter;
+        margin-top: 1em;
+        color: #f8f8f8;;
+      }
 }
