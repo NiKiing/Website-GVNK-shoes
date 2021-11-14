@@ -1,3 +1,4 @@
+@import 'contact-responsive.css';
 *{
 	padding: 0;
 	margin: 0;
@@ -13,7 +14,7 @@ body {
 
 .hero{
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
     background-image: url(https://res.cloudinary.com/nikiing/image/upload/v1636763303/xZXZxZxZ_eqr9m8.png);
     max-width: 100%;
     background-repeat: no-repeat;
