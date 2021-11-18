@@ -1,3 +1,4 @@
+{% load static %} 
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +7,7 @@
 		<title>GIVANIK</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/products-style.css">
+		<link rel="stylesheet" href="{% static 'css/products-style.css' %}">
 		
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 		
@@ -24,9 +25,9 @@
 					</div>
 					<!-- Creating the menu -->
 					<ul class="menu" id="menu">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Products</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 					<div class="menu-bar">
 						<i class="fas fa-bars" id="menu-bar"></i>
@@ -46,7 +47,7 @@
         <main class="main bd-grid">
             <article class="card">
                 <div class="card__img">
-                    <img src="img/imgs-products/img1.png" alt="">
+                    <img src="{% static 'img/imgs-products/img1.png' %}" alt="">
                 </div>
                 <div class="card__name">
                     <p>AIR ZOOM PEGASUS</p>
@@ -64,7 +65,7 @@
 
             <article class="card">
                 <div class="card__img">
-                    <img src="img/imgs-products/img2.png" alt="">
+                    <img src="{% static 'img/imgs-products/img2.png' %}" alt="">
                 </div>
                 <div class="card__name">
                     <p>AIR ZOOM PEGASUS</p>
@@ -81,7 +82,7 @@
 
             <article class="card">
                 <div class="card__img">
-                    <img src="img/imgs-products/img3.png" alt="">
+                    <img src="{% static 'img/imgs-products/img3.png' %}" alt="">
                 </div>
                 <div class="card__name">
                     <p>AIR ZOOM PEGASUS</p>
@@ -99,7 +100,7 @@
 
             <article class="card">
                 <div class="card__img">
-                    <img src="img/imgs-products/img4.png" alt="">
+                    <img src="{% static 'img/imgs-products/img4.png' %}" alt="">
                 </div>
                 <div class="card__name">
                     <p>AIR ZOOM PEGASUS</p>
@@ -116,7 +117,7 @@
             </article>
             <article class="card">
                 <div class="card__img">
-                    <img src="img/imgs-products/img-5.png" alt="">
+                    <img src="{% static 'img/imgs-products/img-5.png' %}" alt="">
                 </div>
                 <div class="card__name">
                     <p>AIR ZOOM PEGASUS</p>
@@ -134,7 +135,7 @@
 
             <article class="card">
                 <div class="card__img">
-                    <img src="img/imgs-products/img-6.png" alt="">
+                    <img src="{% static 'img/imgs-products/img-6.png' %}" alt="">
                 </div>
                 <div class="card__name">
                     <p>NIKE AIR JORDAN 1 RETRO HIGH</p>
@@ -151,7 +152,7 @@
 
             <article class="card">
                 <div class="card__img">
-                    <img src="img/imgs-products/img-7.png" alt="">
+                    <img src="{% static 'img/imgs-products/img-7.png' %}" alt="">
                 </div>
                 <div class="card__name">
                     <p>AIR ZOOM PEGASUS</p>
@@ -169,7 +170,7 @@
 
             <article class="card">
                 <div class="card__img">
-                    <img src="img/imgs-products/img-8.png" alt="">
+                    <img src="{% static 'img/imgs-products/img-8.png' %}" alt="">
                 </div>
                 <div class="card__name">
                     <p>AIR ZOOM PEGASUS</p>
@@ -186,42 +187,7 @@
             </article>
             <article class="card">
                 <div class="card__img">
-                    <img src="img/imgs-products/img-9.png" alt="">
-                </div>
-                <div class="card__name">
-                    <p>AIR ZOOM PEGASUS</p>
-                </div>
-                <div class="card__precis">
-                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
-                    
-                    <div>
-                        <span class="card__preci card__preci--before">$990.00</span>
-                        <span class="card__preci card__preci--now">$749.00</span>
-                    </div>
-                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card__img">
-                    <img src="img/imgs-products/img-13.png" alt="">
-                </div>
-                <div class="card__name">
-                    <p>AIR ZOOM PEGASUS</p>
-                </div>
-                <div class="card__precis">
-                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
-                    <div>
-                        <span class="card__preci card__preci--before">$990.00</span>
-                        <span class="card__preci card__preci--now">$749.00</span>
-                    </div>
-                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="card__img">
-                    <img src="img/imgs-products/img-11.png" alt="">
+                    <img src="{% static 'img/imgs-products/img-9.png' %}" alt="">
                 </div>
                 <div class="card__name">
                     <p>AIR ZOOM PEGASUS</p>
@@ -239,7 +205,42 @@
 
             <article class="card">
                 <div class="card__img">
-                    <img src="img/imgs-products/img-12.png" alt="">
+                    <img src="{% static 'img/imgs-products/img-13.png' %}" alt="">
+                </div>
+                <div class="card__name">
+                    <p>AIR ZOOM PEGASUS</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    <div>
+                        <span class="card__preci card__preci--before">$990.00</span>
+                        <span class="card__preci card__preci--now">$749.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__img">
+                    <img src="{% static 'img/imgs-products/img-11.png' %}" alt="">
+                </div>
+                <div class="card__name">
+                    <p>AIR ZOOM PEGASUS</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$990.00</span>
+                        <span class="card__preci card__preci--now">$749.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__img">
+                    <img src="{% static 'img/imgs-products/img-12.png' %}" alt="">
                 </div>
                 <div class="card__name">
                     <p>AIR ZOOM PEGASUS</p>
@@ -262,10 +263,9 @@
             <div class="quicklinks">
                 <h3 class="text-center">Quick Links</h3>
                 <ul class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#support">Support</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 
                 </ul>
             </div>
@@ -280,6 +280,6 @@
             </div>
         </footer>       
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-        <script src=" js/scripts.js"></script>
+        <script src=" {% static 'js/scripts.js' %}"></script>
     </body>
 </html>
