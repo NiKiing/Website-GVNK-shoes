@@ -267,6 +267,7 @@ article:nth-child(4){
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .footer .menu {
