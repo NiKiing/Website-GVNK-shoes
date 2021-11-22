@@ -65,6 +65,23 @@ body {
     display: none;
 }
 
+#cart-icon{
+    width: 25px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#cart-total{
+    display: block;
+    text-align: center;
+    color: #980412;
+    background-color: white;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
 
 /* PRODUCT SECTION */
 
