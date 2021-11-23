@@ -144,6 +144,23 @@ td a {
     font-size: 12px;
 }
 
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.total-price table{
+    border-top: 3px solid #980412;
+    width: 100% ;
+    max-width: 400px;
+}
+ 
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
 /*-- FOOTER SECTION  --*/
 .footer {
     background-color: #980412;
