@@ -102,7 +102,8 @@ body {
 
 .cart-page{
     margin: 80px auto;
-
+    padding: 8%;
+    margin-top: -4%;
 }
 table{
     width: 100%;
