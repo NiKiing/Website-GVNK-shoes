@@ -9,3 +9,6 @@ def productsView(request):
 
 def contactView(request):
     return render (request, "contact.html")
+
+def cartView(request):
+    return render (request, 'cart.html')
